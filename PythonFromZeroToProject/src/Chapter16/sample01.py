@@ -4,7 +4,7 @@ from multiprocessing import Process
 
 
 def test(interval):
-    print('我是子进程')
+    print('我是子进程', interval)
 
 
 def main():
