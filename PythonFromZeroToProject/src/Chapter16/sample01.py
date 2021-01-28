@@ -15,6 +15,13 @@ def main():
     print('主进程结束')
     print(p.is_alive())
     print(p.is_alive())
+    print(p.is_alive())
+    print(p.is_alive())
+    print(p.is_alive())
+    print('子进程名字:', p.name)
+    print('子进程pid:', p.pid)
+    p.terminate()
+    p.join(20)
 
 
 if __name__ == '__main__':
